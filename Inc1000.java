@@ -25,7 +25,7 @@ public class Inc1000 implements Runnable{
          
         }
         
-        System.out.println(cnt);
+        
     }
     
     public synchronized void inc1(){
