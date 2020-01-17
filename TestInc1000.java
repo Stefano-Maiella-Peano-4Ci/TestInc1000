@@ -18,12 +18,16 @@ public class TestInc1000 {
         // TODO code application logic here
         
         Inc1000 t1 = new Inc1000();
+        Inc1000 t2 = new Inc1000();
        
         
         Thread thrd1 = new Thread(t1); 
+        Thread thrd2 = new Thread(t2); 
+        
         
         
         thrd1.start();
+        thrd2.start();
         
         System.out.println(cnt);
         
