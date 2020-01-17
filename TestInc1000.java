@@ -25,7 +25,7 @@ public class TestInc1000 {
         
         thrd1.start();
         
-        
+        System.out.println(cnt);
         
 //        thrd1.join();
     }
